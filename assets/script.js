@@ -45,9 +45,40 @@ if (localStorage.getItem("event") === null){
 } else {
   showEvent();
 }
-
 //saves input field text in local sotrage once the input 'save' button is clicked:
 function saveEvent(){
   localStorage.setItem("event", inputEvent.value);  
+}
+////
+///9AM
+document.getElementById("9AM").innerText += 9 + ":" + 0 + 0 + " AM";
+
+//Changes color of the input field depending on what time it is:
+if (compareHr > 9 ){
+  document.getElementById("input2").className += " " + "past"; //turns red
+} else if (compareHr < 8){
+  document.getElementById("input2").className += " " + "future"; //turns green
+} else if (compareHr === 8){
+  document.getElementById("input2").className += " " + "present"; //turns white
+}
+
+
+var inputEvent= document.getElementById("input2");
+
+//displays local storage entry; if localstorage is empty it displays a input field placeholder:
+function showEvent2(){
+  document.getElementById("input2").removeAttribute("placeholder");
+  document.getElementById("input2").setAttribute('value', localStorage.getItem("event2"));
+
+}
+if (localStorage.getItem("event2") === null){
+  console.log("storage is empty")
+} else {
+  showEvent2();
+}
+
+//saves input field text in local sotrage once the input 'save' button is clicked:
+function saveEvent2(){
+  localStorage.setItem("event2", inputEvent.value);  
 }
 
