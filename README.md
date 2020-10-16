@@ -5,7 +5,8 @@ A simple calendar application that allows the user to save events for each hour 
 1. Installation
 2. Usage
 3. Contact
-4. License5. Contributing
+4. License
+5. Contributing
 
 
 Installation:
