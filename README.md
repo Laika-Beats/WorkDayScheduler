@@ -13,7 +13,10 @@ Open this link in your browser of choice: https://laika-beats.github.io/WorkDayS
 
 Usage:
 A.) Write out your plans/events for the day and click 'save' to store them in local storage. 
-B.) Input fields that are in the past will be white, input fields that match the current hour in your timezone will be green, and times that have not yet happen will be blue. 
+
+B.) Input fields that are in the past will be white, input fields that match the current hour in your timezone will be green, and times that have not yet happe
+will be blue. 
+
 C.) When it is a new day make sure to inspect the page in Chrome, click on the application section, and clear local storage.
 
 Contact:
