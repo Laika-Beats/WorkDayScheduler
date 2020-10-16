@@ -13,6 +13,7 @@ Installation:
 Open this link in your browser of choice: https://laika-beats.github.io/WorkDayScheduler/
 
 Usage:
+
 A.) Write out your plans/events for the day and click 'save' to store them in local storage. 
 
 B.) Input fields that are in the past will be white, input fields that match the current hour in your timezone will be green, and times that have not yet happe
